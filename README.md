@@ -3,3 +3,4 @@ This project provides a Python workflow for analyzing, modeling, and visualizing
 The workflow calculates local drilling density and combines it with drilling method, type, and logging completeness to assign a confidence score to each drill hole. Drill holes are then aggregated into a 3D block model, where each block contains the average confidence score and the number of drill holes it includes. This approach allows users to quickly identify high-confidence zones suitable for resource evaluation and low-confidence areas that may require infill drilling.
 
 Interactive 3D plots are created using Plotly, providing a clear visual representation of drill hole density, confidence scores, and priority zones. The results can be exported as CSV files, making them compatible with GIS platforms, geostatistical software, or reporting tools.
+For best experience, open with jupyter notebook (Google Colab)
